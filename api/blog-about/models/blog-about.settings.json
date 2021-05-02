@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "blog_abouts",
+  "info": {
+    "name": "BlogAbout"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Content": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
