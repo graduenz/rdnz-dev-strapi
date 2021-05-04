@@ -28,15 +28,6 @@
       "type": "datetime",
       "required": true
     },
-    "Status": {
-      "type": "enumeration",
-      "enum": [
-        "draft",
-        "published"
-      ],
-      "default": "draft",
-      "required": true
-    },
     "Slug": {
       "type": "uid",
       "targetField": "Title",
