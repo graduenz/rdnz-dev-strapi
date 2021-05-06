@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "blog_contacts",
+  "info": {
+    "name": "BlogContact"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    }
+  }
+}
